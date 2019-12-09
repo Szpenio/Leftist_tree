@@ -1,6 +1,5 @@
 (** Project: Leftist trees **)
 (** Autor: Antoni Koszowski **)
-(** Reviewer: Jakub Szulc  **)
 
 (** type representing joinable priority queue; nlp - is the length of the most right path **)
 type 'a queue = Node of { prio: 'a; lewy: 'a queue; prawy: 'a queue; nlp: int } | Null
